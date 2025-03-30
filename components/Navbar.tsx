@@ -12,7 +12,6 @@ import classNames from "classnames";
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
   const pathname = usePathname();
-  const router = useRouter();
 
   const navItems = [
     { title: "Home", href: "/", icon: <Lightbulb size={18} className="mr-2" /> },
